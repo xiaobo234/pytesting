@@ -27,3 +27,9 @@ def test_add2():
 def test_div1():
     cal = Calculator()
     assert cal.div(2, 1) == 2
+
+
+@pytest.mark.div
+def test_div2():
+    cal = Calculator()
+    assert cal.div(2, 1) == 2
